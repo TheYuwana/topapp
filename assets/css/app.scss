@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 100%;
+    background-color: #9CCED9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input{
+    &:focus{
+        outline: none;
+    }
+}
+
+button{
+    &:focus, &:active, &:visited{
+        outline: 0;
+    }
+}
+
+.topapp-button{
+    appearance: none;
+    border: 0px;
+    padding: 15px;
+    background-color: #f25ebf;
+    color: white;
+    border-radius: 50px;
+    transition: background-color 0.3s;
+
+    &:hover {
+      cursor: pointer;
+      background-color: #f2cb05;
+    }
+}
