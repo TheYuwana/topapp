@@ -11,7 +11,7 @@ export default {
   name: "HomeButton",
   methods: {
     backHome() {
-      this.$router.push({ path: "/playground" });
+      this.$router.push({ path: "/" });
     },
   },
 };

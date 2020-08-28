@@ -28,3 +28,8 @@ symfony server:start
 // Start Vue server
 yarn encore dev-server --hot
 ```
+
+Visit local website on
+```
+http://localhost:8000
+```
