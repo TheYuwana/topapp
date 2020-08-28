@@ -65,6 +65,7 @@ class PlaygroundController extends AbstractController{
     }
 
     /**
+     * 
      * @Route("/playground/{vueRouting}", requirements={"vueRouting"=".*"})
      */
     public function index(){
